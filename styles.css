@@ -3,7 +3,7 @@
 }
 
 html {
-    font-size: 1vmax;
+    font-size: 1.15vmax;
 }
 
 section {
@@ -35,7 +35,7 @@ p {
     font-size: 2.5rem;
     font-weight: 500;
     box-shadow: 0.2rem 0.2rem 0 0 var(--col-base);
-    width: 15rem;
+    width: 13rem;
 }
 
 .subheadung-hero {
@@ -45,6 +45,7 @@ p {
 
 /* - - - - - - - - - - - - content - - - - - - - - - - - - */
 .content-hero {
+    text-align: center;
     
 }
 
@@ -97,7 +98,32 @@ p {
 }
 
 
-/* - - - - - - - - - - - - prispevky - - - - - - - - - - - - */
+/* - - - - - - - - - - - - HOME - - - - - - - - - - - - */
+#welcome h1 {
+    text-align: left;
+    padding-left: 3vw;
+}
+
+/* - - - - - - - - - - - - PRISPEVKY - - - - - - - - - - - - */
+.nahoru-button {
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    margin: 1rem;
+    text-align:center;
+    background-color: rgb(255, 255, 255);
+    border: double;
+    border-color: var(--col-base);
+    border-width: 0.3rem;
+  }
+
+#prispevky .cell {
+    margin: 1rem;
+    border-color: var(--col-base);
+    border-style: double;
+    border-width: 0.3rem;
+}
+
 .prispevek {
     margin-bottom: 5rem;
 }
