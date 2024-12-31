@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="theme-light">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../bulma.min.css">
+        <link rel="stylesheet" href="../styles.css">
+        <link rel="icon" type="image/x-icon" href="logo.png">
+        <title>catcaac</title>
+    </head>
+
+    <body>
+        <section class="hero headung-hero">
+            <a href="../">
+                <h1 class="headung-title">ʭʭ catcaac</h1>
+            </a>
+        </section>
+
+        <section class="hero subheadung-hero" id="content">
+            <div>
+                <h1>Příspěvek 1: „aaauh..“</h1>
+                <p></p>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>footer, sem dodat info </p>
+        </footer>
+
+        <script>
+            document.getElementById("content").innerHTML += "<div> <h1> myheading </h1> <p> mytext </p> </div>"
+            document.getElementById("content").innerHTML += "<div><object data='prispevky.txt'></object></div>"
+            document.getElementById("content").innerHTML += "<embed src='prispevky.txt'></embed>"
+        </script>
+
+    </body>
+</html>
