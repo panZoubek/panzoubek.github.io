@@ -3,7 +3,7 @@
 }
 
 html {
-    font-size: 16px;
+    font-size: 1vmax;
 }
 
 section {
@@ -22,9 +22,11 @@ p {
     font-size: 1.25rem;
     font-weight: 400;
     text-align: center;
+    padding: 0.5rem;
 }
 
 
+/* - - - - - - - - - - - - heading - - - - - - - - - - - - */
 .headung-hero {
     padding: 1rem;
 }
@@ -40,6 +42,8 @@ p {
     text-align: center;
 }
 
+
+/* - - - - - - - - - - - - content - - - - - - - - - - - - */
 .content-hero {
     
 }
@@ -81,6 +85,8 @@ p {
     opacity: 0.4;
 }
 
+
+/* - - - - - - - - - - - - footer - - - - - - - - - - - - */
 .footer {
     background-color: transparent;
     border-top: dotted;
@@ -88,4 +94,16 @@ p {
     margin-right: 1rem;
     border-width: 0.15rem;
     border-color: var(--col-base);
+}
+
+
+/* - - - - - - - - - - - - prispevky - - - - - - - - - - - - */
+.prispevek {
+    margin-bottom: 5rem;
+}
+
+.prispevek p {
+    text-align: start;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
