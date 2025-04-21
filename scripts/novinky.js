@@ -2,6 +2,7 @@
 /* pro NEWS a HOME page*/
 /* nejnovejsi na zacatek (kdyby insert byl after begin tak naopak, ale je beforeend) */
 const novinecky = [
+    ["21.4.2025","Uploaded on github"],
     ["21.4.2025","WOW it works, this is awesome"],
     ["21.4.2025","Working on the page"],
     ["5.4.2025","Leošek and others posted"],

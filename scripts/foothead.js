@@ -9,7 +9,7 @@ const futr = `
             <p class="title">MADE WITH HTML, CSS AND <a href="https://bulma.io" class="my-a" target="_blank">BULMA</a></p>
         </div>
         <div class="column half">
-            <a href="" class="no-u"><p class="title" style="font-size: 3rem;">ABOUT JAKIMS</p></a>
+            <a href="" class="no-u"><p class="title" style="font-size: 3rem; text-decoration: underline; font-style: italic">ABOUT JAKIMS</p></a>
         </div>
         <div class="column is-one-quarter">
             <p class="title">© 2025 Jakims page is licensed under <a class="my-a" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></p>
