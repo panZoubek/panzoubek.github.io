@@ -11,23 +11,23 @@ function getRndInteger(min, max) {
   } /* this function from: https://www.w3schools.com/JS//js_random.asp */
 
 const images = [
-    new PhotoInfo("imagems/crazy.jpeg","crazy","unknown[home]","crazy closeup"),
+    new PhotoInfo("imagems/crazy.jpeg","crazy","28.1.2025[home]","crazy closeup"),
     new PhotoInfo("imagems/heat.jpeg","amelia","13.12.2024[home]","amelia on da heater"),
-    new PhotoInfo("imagems/house.jpeg","house","unknown[Portugal]","fancy house"),
-    new PhotoInfo("imagems/howilook.jpeg","howilook","unknown[home]","how i look when"),
-    new PhotoInfo("imagems/kamelias.jpeg","kamelia","unknown[Portugal]","camelias"),
+    new PhotoInfo("imagems/house.jpeg","house","24.2.2025[Portugal]","fancy house"),
+    new PhotoInfo("imagems/howilook.jpeg","howilook","23.1.2025[home]","how i look when"),
+    new PhotoInfo("imagems/kamelias.jpeg","kamelia","26.2.2025[Portugal]","camelias"),
     new PhotoInfo("imagems/nous.jpeg","nous","28.1.2025[home]","lil nous"),
     new PhotoInfo("imagems/ruzukyti.jpeg","ruzukyti","2.4.2025[the Capital]","pinkie springy flowey"),
-    new PhotoInfo("imagems/school.jpeg","school","unknown[school]","how school be"),
+    new PhotoInfo("imagems/school.jpeg","school","14.1.2025[school]","how school be"),
     new PhotoInfo("imagems/sfing.jpeg","sfing","28.1.2025[home]","Sfing(real)"),
     new PhotoInfo("imagems/trees.jpeg","trinkos","25.2.2025[Portugal]","trinkos"),
-    new PhotoInfo("imagems/twoofthem.jpeg","theytwo","unknown[home]","they two"),
-    new PhotoInfo("imagems/waldabed.jpeg","waldabed","unknown[home]","walda in bed"),
-    new PhotoInfo("imagems/water.jpeg","walter","unknownd[Portugal]","Walter"),
-    new PhotoInfo("imagems/whiteheat.jpeg","whiteheat","unknown[home]","crazy heater"),
-    new PhotoInfo("imagems/whitey.jpeg","somecar","unknown[city]","some very cutey chonkey car in ma way"),
-    new PhotoInfo("imagems/windew.jpeg","windew","unknown[by the window]","windew"),
-    new PhotoInfo("imagems/yaawn.jpeg","yaawn","unknown[home]","lil big little yaaaaaaaaaaaaaaAAAaawn")
+    new PhotoInfo("imagems/twoofthem.jpeg","theytwo","16.1.2025[home]","they two"),
+    new PhotoInfo("imagems/waldabed.jpeg","waldabed","19.3.2025[home]","walda in bed"),
+    new PhotoInfo("imagems/water.jpeg","walter","24.2.2025[Portugal]","Walter"),
+    new PhotoInfo("imagems/whiteheat.jpeg","whiteheat","12.12.2025[home]","crazy heater"),
+    new PhotoInfo("imagems/whitey.jpeg","somecar","17.3.2025[city]","some very cutey chonkey car in ma way"),
+    new PhotoInfo("imagems/windew.jpeg","windew","11.1.2025[by the window]","windew"),
+    new PhotoInfo("imagems/yaawn.jpeg","yaawn","23.1.2025[home]","lil big little yaaaaaaaaaaaaaaAAAaawn")
 ]
 
 function FillIn(source, nickname, date_place, description) {
