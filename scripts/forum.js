@@ -8,7 +8,7 @@ class ForumPostInfo {
     }
 }
 
-forumposts = [
+const forumposts = [
     new ForumPostInfo("pfps/ami.png", "Amálka", "5.4.2025", "WET FOOD?!! :3", "You gave Amálka wet food, despite her head was between you and the bowl"),
     new ForumPostInfo("pfps/vini.png", "vinicius", "5.4.2025", "Wait. Which forum is this?", "This is not Forum Romanum"),
     new ForumPostInfo("pfps/leo.png", "Leošek", "5.4.2025" ,"PUT ME DOOOWND!!! MAWAUU!", "You indeed did not put him down"),
@@ -36,6 +36,15 @@ function FFillIn(pfp_src, nickname, date, kontentos, reply_text) {
 function FeaturedFPosts(){
     doc = document.getElementById("FORUMGRID")
     for (i=4;i!=0;i--) {
+        post = forumposts[i]
+        htmelos = FFillIn(post.pfp, post.name, post.date, post.content, post.reply)
+        doc.insertAdjacentHTML("beforeend",htmelos)
+    }
+}
+
+function AllForum(){
+    doc = document.getElementById("FORUMGRID")
+    for (i=(forumposts.length-1);i>=0;i--) {
         post = forumposts[i]
         htmelos = FFillIn(post.pfp, post.name, post.date, post.content, post.reply)
         doc.insertAdjacentHTML("beforeend",htmelos)
