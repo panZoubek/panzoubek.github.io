@@ -1,17 +1,3 @@
-function MoreInfo() {
-    let ppp = document.getElementById("MOREINFORMATION")
-    if (ppp == null) {
-        let mi = `<p class="subtitle" id='MOREINFORMATION' style="background-color: lightblue; padding:1rem"><b>This is my page and I will put here only things I want. 
-            I can deny anything you send me and I do not have to continue comunnicating with you. 
-            By sendimg and confirming content you want me to put on my page you give me the right to claim this small piece of text you which provided as my own. 
-            I will not accept anything else than text for FORUM post or USER POST.</b></p>`
-        document.getElementById("CONTSUB").insertAdjacentHTML("beforeend",mi)
-    }
-    else {
-        ppp.remove()
-    }
-}
-
 function MakeItSilly() {
     let not_silly_intro = `
         <div class="hero-head has-text-centered" id="INTRO_NS" name="introduction">
