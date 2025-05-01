@@ -6,7 +6,7 @@ const futr = `
     </div>
     <div class="columns is-multiline has-text-centered ffff">
         <div class="column is-one-quarter">
-            <p class="title">MADE WITH HTML, CSS AND <a href="https://bulma.io" class="my-a" target="_blank">BULMA</a></p>
+            <p class="title">MADE WITH HTML, CSS, JS AND <a href="https://bulma.io" class="my-a" target="_blank">BULMA</a></p>
         </div>
         <div class="column half">
             <a href="/about.html" class="no-u"><p class="title" style="font-size: 3rem; text-decoration: underline; font-style: italic">ABOUT JAKIMS</p></a>
