@@ -27,8 +27,9 @@ const images = [
     new PhotoInfo("imagems/whiteheat.jpeg","whiteheat","12.12.2025[home]","crazy heater"),
     new PhotoInfo("imagems/whitey.jpeg","somecar","17.3.2025[city]","some very cutey chonkey car in ma way"),
     new PhotoInfo("imagems/windew.jpeg","windew","11.1.2025[by the window]","windew"),
-    new PhotoInfo("imagems/yaawn.jpeg","yaawn","23.1.2025[home]","lil big little yaaaaaaaaaaaaaaAAAaawn")
-]
+    new PhotoInfo("imagems/yaawn.jpeg","yaawn","23.1.2025[home]","lil big little yaaaaaaaaaaaaaaAAAaawn"),
+    new PhotoInfo("imagems/larry.png","larry.","1.5.2025[somewhere]","... Larry.")
+] /* nejnovejsi na konci */
 
 function FillIn(source, nickname, date_place, description) {
     let postbox = `

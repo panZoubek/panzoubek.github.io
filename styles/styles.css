@@ -74,6 +74,7 @@ a {
 .gallery_pick{
     background-color: rgb(255, 255, 255);
     padding:0.5rem;
+    height: min-content;
 }
 
 /* LINKS */
@@ -143,6 +144,7 @@ a {
     border-radius: 2rem;
     padding: 0;
     margin: 3rem;
+    height: min-content;
 }
 
 .post_box .poster_info {
