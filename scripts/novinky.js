@@ -2,6 +2,7 @@
 /* pro NEWS a HOME page*/
 /* nejnovejsi na zacatek (kdyby insert byl after begin tak naopak(ale je beforeend)) */
 const novinecky = [
+    ["8.6.2025","Přidána tlačítka v galerii a více!"],
     ["1.5.2025","Všechny linky nyní fungují, zpoloautimazováno pomocí javascriptu :))), stránka nyní plně funkční, stále je co zlepšovat"],
     ["22.4.2025","Made first version of 'About Jakims' page"],
     ["21.4.2025","Uploaded on github"],

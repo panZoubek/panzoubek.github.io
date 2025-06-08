@@ -8,13 +8,41 @@
     <link rel="icon" type="image/x-icon" href="kyti.png">
     <title>Jakims - Gallery</title>
     <!--hjehehehehhehejehehehhe-->
+    <style>
+        .upperbutt {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 1rem;
+        }
+
+        .butt {
+            border: 0.25rem;
+            border-style: solid;
+            border-radius: 0.5rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            padding: 0.2rem;
+        }
+    </style>
 </head>
 <body>
     <div class="header" id="HEADER"></div>
 
     <div class="hero">
         <div class="hero-head  has-text-centered">
-            <h1 class="title section_name">GALLERY</h1>
+            <h1 class="title section_name" id="MEJNTAJTL">GALLERY</h1>
+            <div class="grid upperbutt">
+                <div class="cell butt">
+                    <a><h1 class="title" onclick="allGallery()">ALL</h1></a>
+                </div>
+                <div class="cell butt">
+                    <a><h1 class="title" onclick="allScramble()">SCRAMBLE</h1></a>
+                </div>
+                <div class="cell butt">
+                    <a><h1 class="title" onclick="groupPhotos()">GROUP</h1></a>
+                </div>
+            </div>
         </div>
         <div class="hero-body">
             <div class="grid is-col-min-15" id="ALLTEHPOTOS">
