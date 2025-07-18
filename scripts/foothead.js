@@ -1,18 +1,11 @@
 const futr = `
-    <div class="columns">
-        <div class="column">
-            <img src="feet.png" alt="2 foot" class="image is-2by1">
+    <div class="columns is-multiline has-text-centered">
+        <div class="column is-two-fifths">
+            <p class="title" style="font-size:1.5rem">MADE WITH HTML, CSS, JS AND <a href="https://bulma.io" class="my-a" target="_blank">BULMA</a></p>
         </div>
-    </div>
-    <div class="columns is-multiline has-text-centered ffff">
-        <div class="column is-one-quarter">
-            <p class="title">MADE WITH HTML, CSS, JS AND <a href="https://bulma.io" class="my-a" target="_blank">BULMA</a></p>
-        </div>
-        <div class="column half">
-            <a href="/about.html" class="no-u"><p class="title" style="font-size: 3rem; text-decoration: underline; font-style: italic">ABOUT JAKIMS</p></a>
-        </div>
-        <div class="column is-one-quarter">
-            <p class="title">© 2025 Jakims page is licensed under <a class="my-a" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></p>
+        <div class="column is-one-fifth"></div>
+        <div class="column is-two-fifths">
+            <p class="title" style="font-size:1.5rem">© 2025 Jakims page is licensed under <a class="my-a" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></p>
         </div>
     </div>`;
 document.getElementById('FOOTER').insertAdjacentHTML("beforeend",futr)

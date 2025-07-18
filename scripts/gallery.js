@@ -39,7 +39,10 @@ const images = [
     new PhotoInfo("imagems/whitey.jpeg",    "somecar",      "17.3.2025[city]",          "some very cutey chonkey car in ma way","cat"),
     new PhotoInfo("imagems/waldabed.jpeg",  "waldabed",     "19.3.2025[home]",          "walda in bed",                         "cat"),
     new PhotoInfo("imagems/ruzukyti.jpeg",  "ruzukyti",     "2.4.2025[the Capital]",    "pinkie springy flowey",                "moment"),
-    new PhotoInfo("imagems/larry.png",      "larry.",       "1.5.2025[somewhere]",      "... Larry.",                           "other")
+    new PhotoInfo("imagems/larry.png",      "larry.",       "1.5.2025[somewhere]",      "... Larry.",                           "other"),
+    new PhotoInfo("imagems/portcar.jpg",    "portcar",      "30.6.2025[Porugal]",       "Nice car",                             "cat"),
+    new PhotoInfo("imagems/portflrwr.jpg",  "portflwr",     "30.6.2025[Portugal]",      "Flower closeup",                       "travel"),
+    new PhotoInfo("imagems/portdrain.jpg",  "drain",        "2.7.2025[Portugal]",       "People say water flows here",          "travel"),
 ] /* nejnovejsi na konci */
 
 const groups = ["other","travel","cat","moment"] /* pořadí těchto skupin rozhodne o pořadí na stránce (je to zde od zadu do predu)*/
@@ -82,20 +85,20 @@ function allGallery() {
         boxikos.insertAdjacentHTML("afterbegin",elik)
     }
     
-    const yappayap = `
-    <div class="cell has-text-centered">
-        <h1 class="subtitle">
-            ▫▀▀▀▄▀▐▌▄▐▌▫▄▄██▀▐▌▫▫▫▄■▀▐▌▀■□■■■▄▫▀▄█▫█■■□▄▀□□▫■▀▀▄█▀■▄▫▀█■▐▌█▀▐▌□▀
-            <br><br>Hello, aohj!!! Toto jsou všechny fotki, které tu mám! Jsou seřazeny (12345reverse) 
-            od nejnovějších po nejstarší :))) Nahoře jsou tlačitka, kterými můžeš změnit to, jak se řadí! 
-            <br><br> <u>ALL</u> - to nemačkej, nic se nezměníi 
-            <br> <u>SCRAMBLE</u><sup>D EGGS</sup> - náhodně promíchá vaj- FOTKY!
-            <br> <u>GROUP</u> - seskupí fotky do skupin podle tématu
-            <br><br>□▄▫▄□■▫■▐▌□█■▫▄□▐▌▫▐▌██▄▐▌□□▐▌▐▌▐▀▀▄▐▌■■▀▐▌█▀▌▐▌□▀█▀▫▄□▫▄■█▀▐▌█
-        </h1>
-    </div>
-    `
-    boxikos.insertAdjacentHTML("afterbegin",yappayap)
+    //const yappayap = `
+    //<div class="cell has-text-centered">
+    //    <h1 class="subtitle">
+    //        ▫▀▀▀▄▀▐▌▄▐▌▫▄▄██▀▐▌▫▫▫▄■▀▐▌▀■□■■■▄▫▀▄█▫█■■□▄▀□□▫■▀▀▄█▀■▄▫▀█■▐▌█▀▐▌□▀
+    //        <br><br>Hello, aohj!!! Toto jsou všechny fotki, které tu mám! Jsou seřazeny (12345reverse) 
+    //        od nejnovějších po nejstarší :))) Nahoře jsou tlačitka, kterými můžeš změnit to, jak se řadí! 
+    //        <br><br> <u>ALL</u> - to nemačkej, nic se nezměníi 
+    //        <br> <u>SCRAMBLE</u><sup>D EGGS</sup> - náhodně promíchá vaj- FOTKY!
+    //        <br> <u>GROUP</u> - seskupí fotky do skupin podle tématu
+    //        <br><br>□▄▫▄□■▫■▐▌□█■▫▄□▐▌▫▐▌██▄▐▌□□▐▌▐▌▐▀▀▄▐▌■■▀▐▌█▀▌▐▌□▀█▀▫▄□▫▄■█▀▐▌█
+    //    </h1>
+    //</div>
+    //`
+    //boxikos.insertAdjacentHTML("afterbegin",yappayap)
 
     const tajtl = document.getElementById("MEJNTAJTL")
     tajtl.innerHTML = "GALLERY – ALL"

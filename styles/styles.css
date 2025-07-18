@@ -1,7 +1,7 @@
 :root{
-    --bg:rgb(236, 224, 224); /* for content divs */
-    --bg2: rgb(236, 224, 224); /* for header and footer */
-    --mbg: rgb(201, 174, 174);  /* html bg */
+    --bg:rgb(230, 230, 230); /* for content divs */
+    --bg2: rgb(230, 230, 230); /* for header and footer */
+    --mbg: rgb(201, 201, 201);  /* html bg */
 }
 
 @media only screen and (min-width: 1400px) {
@@ -18,7 +18,7 @@
 }
 
 body {
-    font-family:Georgia;
+    font-family:Arial;
 }
 
 /* GENERAL */
@@ -47,7 +47,7 @@ a {
 .my-a {
     text-decoration: underline;
     font-style: italic;
-    color: rgb(173, 0, 0);
+    color: rgb(50, 43, 255);
 }
 
 .no-u {
@@ -177,11 +177,10 @@ a {
 /* FOOTER */
 
 .footer {
-    background-color: var(--bg2);
-    padding-bottom: 4rem;
-    background-color: var(--bg2);
+    background-color: var(--mbg);
     margin-top: 2rem;
-    padding-top: 0rem;
+    padding-top: 2rem;
+    padding-bottom: 6rem;
 }
 
 .footer .column {
@@ -190,14 +189,5 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.footer .ffff .column {
-    margin-bottom: 2rem;
-}
-
-.footer .image {
-    position: relative;
-    top: 0rem;
-    height: 8rem;
+    min-height: 2rem;
 }

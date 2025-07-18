@@ -1,18 +1,16 @@
 .cell {
-    background-color: rgb(255, 255, 255);
-    margin-bottom: 1rem;
-    padding: 1rem;
-    border-radius: 1rem;
-    box-shadow: inset 0rem 0rem 1rem 0.5rem var(--bg);
+    background-color: rgb(246, 246, 246);
+    margin-bottom: 0.6rem;
+    padding: 0.6rem;
 }
 
+/*
 .cell div {
-    background-color: rgb(255, 255, 255);
-    border-radius: 0.5rem;
-    padding: 0.5rem;
+    
 }
+*/
 
 .cell .subtitle {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
