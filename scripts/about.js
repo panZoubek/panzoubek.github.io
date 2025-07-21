@@ -18,7 +18,7 @@ let silly_amp = `
         I like to create art in any form. I like poetry and surrealistic things
 </p>
 <button class="silly-button" onclick="MakeItSilly()">
-    <p class="subtitle">SILLY BUTTON</p>
+    <p class="subtitle" style="margin-bottom: 0rem;">SILLY BUTTON</p>
 </button>
 `
 let not_silly_amp = `
@@ -31,7 +31,7 @@ let not_silly_amp = `
             I also like poetry and surrealistic things. Let that be anything.
 </p>
 <button class="silly-button" onclick="MakeItSilly()">
-    <p class="subtitle">SILLY BUTTON</p>
+    <p class="subtitle" style="margin-bottom: 0rem;">SILLY BUTTON</p>
 </button>
 `
 
