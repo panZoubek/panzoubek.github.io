@@ -107,18 +107,21 @@ function allGallery() {
 function allScramble() {
     const boxikos = document.getElementById("ALLTEHPOTOS")
     boxikos.innerHTML = ""
-    const usedphotos = []
-    const delka = images.length - 1
+    /*const usedphotos = []*/
+    const delka = images.length
+    const all_imgs_copy = images.slice(0)
 
     /* stejny for loop jako v featGallery, ale misto 5 tam ma pocet vsech fotek */
     for (let i = 0; i != delka; i++) {
         
-        let prvek = noRepeatRnd(0,delka,usedphotos)
-        usedphotos.push(prvek)
-        let p = images[prvek]
-
+        let prvek = getRndInteger(0,all_imgs_copy.length-1)/*let prvek = noRepeatRnd(0,delka,usedphotos)*/
+        /*usedphotos.push(prvek)*/
+        let p = all_imgs_copy[prvek]
+        
         const contentos = FillIn(p.src, p.nick, p.dateplace, p.desc)
         boxikos.insertAdjacentHTML("afterbegin",contentos)
+
+        all_imgs_copy.splice(prvek, 1)
     }
 
     const tajtl = document.getElementById("MEJNTAJTL")

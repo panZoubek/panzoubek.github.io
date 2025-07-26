@@ -23,7 +23,7 @@ body {
 
 /* GENERAL */
 .hero {
-    padding-bottom: 2.5rem;
+    padding-bottom: 3.5rem;
     background-color: var(--bg);
     box-shadow: inset 0rem -3.5rem 2rem -2rem var(--mbg);
     padding-top: 2rem;
@@ -136,6 +136,30 @@ a {
     bottom: 0;
     right: 0;
     cursor: pointer;
+}
+
+.featured_post .reply_button:before {
+    content: attr(hover-data);
+    visibility: hidden;
+    opacity: 0;
+    width: 100px;
+    position: absolute;
+    transition: visibility 2s, opacity 2s;
+    transition-delay: 2s;
+    top: -1.5rem;
+    right: 5rem;
+    width: 10rem;
+    background-color: yellowgreen;
+    padding: 0.5rem;
+    border-radius: 0.3em;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.featured_post .reply_button:active:before {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s;
 }
 
 /*USER POSTS*/

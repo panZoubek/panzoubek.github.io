@@ -26,7 +26,7 @@ function FFillIn(pfp_src, nickname, date, kontentos, reply_text) {
             <div class="message">
                 <p class="subtitle"><i class="date">${date}</i> – ${kontentos}</p>
             </div>
-            <div class="reply_button" title="${reply_text}">
+            <div class="reply_button" hover-data="${reply_text}">
                 <p class="subtitle" style="padding-left: 0.4rem"><b>reply</b></p>
             </div>
         </div>
