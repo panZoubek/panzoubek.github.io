@@ -9,10 +9,10 @@ let silly_intro = `
         <h1 class="title">dis my page.</h1>
     `
 let silly_amp = `
-<h1 class="title" id="AMPsign">About me person</h1>
+<p class="title" style="padding-bottom: 1rem; font-size: 3rem;" id="AMPsign">About me person</p>
 <p class="subtitle" id="AMPcontent">
     Am Jakim. I like parkour and playing
-    <u><a href="https://steamcommunity.com/profiles/76561198300678178/" target="_blank">puter games</a></u> with frients.
+    <u><a href="gaming.html">puter games</a></u> with frients.
         I also like programming and puter scienc.
         Currenly, I should study, I do not. Am the silliest person alive. No one can stop me but myself. I love creating things.
         I like to create art in any form. I like poetry and surrealistic things
@@ -22,10 +22,10 @@ let silly_amp = `
 </button>
 `
 let not_silly_amp = `
-<h1 class="title" id="AMPsign">About me</h1>
+<p class="title" style="padding-bottom: 1rem; font-size: 3rem;" id="AMPsign">About me</p>
 <p class="subtitle" id="AMPcontent">
     I like parkour and playing
-    <u><a href="https://steamcommunity.com/profiles/76561198300678178/" target="_blank">computer games</a></u> with my friends.
+    <u><a href="gaming.html">computer games</a></u> with my friends.
         I also like programming and computer science.
         I am currently on my studies and I do study hard!!!<sup> Maybe not...</sup>. I enjoy silly humor and I love creating things in any form.
             I also like poetry and surrealistic things. Let that be anything.

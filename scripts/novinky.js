@@ -2,6 +2,7 @@
 /* pro NEWS a HOME page*/
 /* nejnovejsi na zacatek (kdyby insert byl after begin tak naopak(ale je beforeend)) */
 const novinecky = [
+    ["26.7.2025","Added gaming page with pfp&nick history; minor changes"],
     ["18.7.2025","Slightly edited"],
     ["8.6.2025","Přidána tlačítka v galerii a více!"],
     ["1.5.2025","Všechny linky nyní fungují, zpoloautimazováno pomocí javascriptu :))), stránka nyní plně funkční, stále je co zlepšovat"],
