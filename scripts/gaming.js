@@ -3,8 +3,9 @@
 const way_to_imgs = "imagems/steam_pfps/";
 
 const profiles = [
-    ["gettingawaywithit.png", "getting away with it", ["19.7.2025-..."]],
-    ["leosek.jpg", "nad", ["...-19.7.2025", "1998-2000"]]
+    ["pianowalker.jpg", "the piano walker", ["28.7.2025-now"]],
+    ["gettingawaywithit.png", "getting away with it", ["19.7.2025-28.7.2025"]],
+    ["leosek.jpg", "nad", ["main pfp"]]
 ];
 // nejnovejsi na zacatku
 // v datech - nejnovejsi na zacatku
