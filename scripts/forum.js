@@ -14,6 +14,7 @@ const forumposts = [
     new ForumPostInfo("pfps/leo.png", "Leošek", "5.4.2025" ,"PUT ME DOOOWND!!! MAWAUU!", "You indeed did not put him down"),
     new ForumPostInfo("pfps/jakim.png", "Jakim", "5.4.2025", "I did not even finish this site and you guys are already here :)", "You replied and the flower bloomed"),
     new ForumPostInfo("pfps/leo.png", "Leošek", "30.4.2025" ,"Jakim does not know what 'Estuárie' is", "Miow Miow"),
+    new ForumPostInfo("pfps/jakim.png", "Jakim", "31.7.2025" ,"<3", "<3"),
 ] /* newest at the bottom */
 
 function FFillIn(pfp_src, nickname, date, kontentos, reply_text) {

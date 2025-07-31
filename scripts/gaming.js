@@ -3,7 +3,8 @@
 const way_to_imgs = "imagems/steam_pfps/";
 
 const profiles = [
-    ["pianowalker.jpg", "the piano walker", ["28.7.2025-now"]],
+    ["sky.jpg", "sky", ["31.7.2025-now"]],
+    ["pianowalker.jpg", "the piano walker", ["28.7.2025-31.7.2025"]],
     ["gettingawaywithit.png", "getting away with it", ["19.7.2025-28.7.2025"]],
     ["leosek.jpg", "nad", ["main pfp"]]
 ];
