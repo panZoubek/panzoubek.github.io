@@ -3,9 +3,10 @@
 const way_to_imgs = "imagems/steam_pfps/";
 
 const profiles = [
-    ["sky.jpg", "sky", ["31.7.2025-now"]],
+    ["the-world-sees-me.jpg", "the world sees me", ["current pfp", '<a target="_blank" href="https://www.vecteezy.com/vector-art/22024202-tom-and-jerry-cartoon" class="my-a">img source</a>']],
+    ["sky.jpg", "sky", ["1.8.2025"]],
     ["pianowalker.jpg", "the piano walker", ["28.7.2025-31.7.2025"]],
-    ["gettingawaywithit.png", "getting away with it", ["19.7.2025-28.7.2025"]],
+    ["gettingawaywithit.png", "getting away with it", ["19.7.2025-28.7.2025", '<a target="_blank" href="https://knowyourmeme.com/memes/he-cant-keep-getting-away-with-it" class="my-a">img source</a>']],
     ["leosek.jpg", "nad", ["main pfp"]]
 ];
 // nejnovejsi na zacatku
@@ -24,7 +25,7 @@ for (let i = 0; i < profiles.length; i++) {
                 <div class="p_item2">
                     <p class="title">${prof[1]}</p>
                 </div>
-                <div class="p_item3 datess" id="USAGE_DATES${i}">           
+                <div class="p_item3" id="USAGE_DATES${i}">           
                 </div>
             </div>
         </div>
@@ -38,7 +39,7 @@ for (let i = 0; i < profiles.length; i++) {
 
     for (let d = 0; d < num_d; d++) {
         let cntnt = `
-            <p class="pdate">□${prof_dates[d]}</p>
+            <p class="pdate">${prof_dates[d]}</p>
         `;
         daticka.insertAdjacentHTML('beforeend',cntnt);
     };
