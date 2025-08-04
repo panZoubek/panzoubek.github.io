@@ -3,7 +3,8 @@
 const way_to_imgs = "imagems/steam_pfps/";
 
 const profiles = [
-    ["the-world-sees-me.jpg", "the world sees me", ["current pfp", '<a target="_blank" href="https://www.vecteezy.com/vector-art/22024202-tom-and-jerry-cartoon" class="my-a">img source</a>']],
+    ["salt-lamp-gaming.jpg", "salt lamp gaming", ["current pfp"]],
+    ["the-world-sees-me.jpg", "the world sees me", ["2.8.2025-4.8.2025", '<a target="_blank" href="https://www.vecteezy.com/vector-art/22024202-tom-and-jerry-cartoon" class="my-a">img source</a>']],
     ["sky.jpg", "sky", ["1.8.2025"]],
     ["pianowalker.jpg", "the piano walker", ["28.7.2025-31.7.2025"]],
     ["gettingawaywithit.png", "getting away with it", ["19.7.2025-28.7.2025", '<a target="_blank" href="https://knowyourmeme.com/memes/he-cant-keep-getting-away-with-it" class="my-a">img source</a>']],
