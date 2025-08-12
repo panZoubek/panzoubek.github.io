@@ -3,7 +3,8 @@
 const way_to_imgs = "imagems/steam_pfps/";
 
 const profiles = [
-    ["clippy.jpg", "I like", ["current pfp", '<a target="_blank" href="https://www.geekwire.com/2011/microsoft-brings-clippy-office-training-game/" class="my-a">img source</a>']],
+    ["clippy-super-blush.png", "super blush", ["current pfp"]],
+    ["clippy.jpg", "I like", ["11.8.2025-12.8.2025", '<a target="_blank" href="https://www.geekwire.com/2011/microsoft-brings-clippy-office-training-game/" class="my-a">img source</a>']],
     ["try-not-to-hate-yourself.jpg", "try not to hate yourself", ["8.8.2025-10.8.2025"]],
     ["salt-lamp-gaming.jpg", "salt lamp gaming", ["5.8.2025-7.8.2025"]],
     ["the-world-sees-me.jpg", "the world sees me", ["2.8.2025-4.8.2025", '<a target="_blank" href="https://www.vecteezy.com/vector-art/22024202-tom-and-jerry-cartoon" class="my-a">img source</a>']],
