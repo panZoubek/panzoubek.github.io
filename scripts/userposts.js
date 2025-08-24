@@ -21,6 +21,8 @@ const UserPostsList = [
         <br><br>A hledám, stále hledám<br>tu pravou z mnoha dam<br>Žádná z nich však nevolá<br>Tady jsem, tvá vyvolená
         <br><br>A tak lěžím, přemýšlím<br>Po stropu se slzami koukám<br>Naděje je v nedohlednu<br>Tiše, sám klesám ke dnu.
         <br><br>Že by láska jen pouhý klam?<br>Co vylezl jak had z mnoha tlam?<br>Bez konce je toto utrpení<br>láska asi žádná není.`),
+    new UserPostInfo("pfps/jakim.png", "Jakim", "24.8.2025", "is-5", `<b>Thoughts</b> I don't like social media. The big companies behind them are harvesting user data and attention. But who should care? Does it really affect me? I do not really understand theese terms and I am not alone. We do not really have any other choice. Internet and socials have became unseparable parts of our lives.
+        <br> I don't like that I can't edit basic file types on my phone. It is a sure thing on a computer. But on a phone with manufacturers operating system people are dependant on apps from iOS or google app stores where many of those apps are paid, have ton of ads and can't even do what I need. I want a phone over which I could have total control. Like on my PC or laptop.`),
 ]
 
 function FillInPost(post) {
