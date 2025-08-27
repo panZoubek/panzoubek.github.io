@@ -9,7 +9,7 @@ let silly_intro = `
         <h1 class="title">dis my page.</h1>
     `
 let silly_amp = `
-<p class="title" style="padding-bottom: 1rem; font-size: 3rem;" id="AMPsign">About me person</p>
+<p class="title" id="AMPsign">About me person</p>
 <p class="subtitle" id="AMPcontent">
     Am Jakim. I like parkour and playing
     <u><a href="gaming.html">puter games</a></u> with frients.
@@ -18,11 +18,11 @@ let silly_amp = `
         I like to create art in any form. I like poetry and surrealistic things
 </p>
 <button class="silly-button" onclick="MakeItSilly()">
-    <p class="subtitle" style="margin-bottom: 0rem;">SILLY BUTTON</p>
+    <p>SILLY BUTTON</p>
 </button>
 `
 let not_silly_amp = `
-<p class="title" style="padding-bottom: 1rem; font-size: 3rem;" id="AMPsign">About me</p>
+<p class="title" id="AMPsign">About me</p>
 <p class="subtitle" id="AMPcontent">
     I like parkour and playing
     <u><a href="gaming.html">computer games</a></u> with my friends.
@@ -31,7 +31,7 @@ let not_silly_amp = `
             I also like poetry and surrealistic things. Let that be anything.
 </p>
 <button class="silly-button" onclick="MakeItSilly()">
-    <p class="subtitle" style="margin-bottom: 0rem;">SILLY BUTTON</p>
+    <p>SILLY BUTTON</p>
 </button>
 `
 

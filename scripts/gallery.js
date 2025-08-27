@@ -52,7 +52,7 @@ function FillIn(source, nickname, date_place, description) {
     let postbox = `
         <div class="cell gallery_pick">
             <img src="${source}" alt="${nickname}" title="${nickname}" class="image">
-            <p class="subtitle"><i class="date">${date_place}</i> – ${description}</p>
+            <p><i class="date">${date_place}</i> – ${description}</p>
         </div>
                     `
     return postbox
