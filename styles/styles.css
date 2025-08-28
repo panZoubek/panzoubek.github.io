@@ -6,6 +6,9 @@
 }
 
 @media only screen and (min-width: 1400px) {
+    :root {
+        font-size: 15px;
+    }
     body {
         padding-left: 15rem;
         padding-right: 15rem;
@@ -14,7 +17,7 @@
 
 @media only screen and (max-width: 800px) {
     :root {
-        font-size: 12px;
+        font-size: 10px;
     }
 }
 
@@ -30,19 +33,19 @@
 */
 
 /* GENERAL */
-.subtitle {
-            font-size: 1.5rem;
-            margin-bottom:1.8rem;
-}
-
-.title {
-    font-size: 3rem;
-}
-
 p {
     font-size: 1.2rem;
     color: rgb(29, 29, 29);
     font-weight: 500;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    margin-bottom:1.8rem;
+}
+
+.title {
+    font-size: 3rem;
 }
 
 body {
@@ -154,7 +157,26 @@ a {
     text-decoration: underline;
     font-style: italic;
     font-weight: bolder;
-    font-size: 2rem;
+    font-size: 2.2rem;
+}
+
+.hyper_link .jump-grid {
+    margin: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.hyper_link .jump {
+    margin: 0.5rem;
+    border-radius: 0.3rem;
+    box-shadow: var(--shadow);
+    background-color: rgb(253, 253, 253);
+}
+
+.hyper_link .jump p {
+    font-size: 2.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 /* FORUM */

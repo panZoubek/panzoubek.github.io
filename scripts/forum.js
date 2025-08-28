@@ -36,10 +36,10 @@ function FFillIn(pfp_src, nickname, date, kontentos, reply_text) {
 
 function FeaturedFPosts(){
     doc = document.getElementById("FORUMGRID")
-    for (let i=4;i!=0;i--) {
-        post = forumposts[i]
+    for (let i=3;i!=0;i--) {
+        post = forumposts[forumposts.length-i]
         htmelos = FFillIn(post.pfp, post.name, post.date, post.content, post.reply)
-        doc.insertAdjacentHTML("beforeend",htmelos)
+        doc.insertAdjacentHTML("afterbegin",htmelos)
     }
 }
 

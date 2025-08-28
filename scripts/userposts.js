@@ -42,7 +42,7 @@ function FillInPost(post) {
 
 function FeaturedUserPosts(){
     const doc = document.getElementById("HOMEFEATUPOSTS")
-    for (let i=UserPostsList.length-1;i>=UserPostsList.length-4;i--) {
+    for (let i=UserPostsList.length-1;i>=UserPostsList.length-1;i--) {
         let info = UserPostsList[i]
         let k = FillInPost(info)
         doc.insertAdjacentHTML("beforeend",k)

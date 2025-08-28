@@ -13,7 +13,7 @@ document.getElementById('FOOTER').insertAdjacentHTML("beforeend",futr)
 
 const hedr = `
 <div class="hero-head has-text-centered" style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">
-    <a href="home.html"><p class="title has-text-centered" style="font-size: 4rem;"><u> Jakims </u></p></a>
+    <a href="home.html"><p class="title has-text-centered" style="font-size: 5rem;"><u> Jakims </u></p></a>
     <img src="kyti.png" class="image is-96x96" style="margin-left: 1rem;">
 </div>`
 document.getElementById('HEADER').insertAdjacentHTML("afterbegin",hedr)
