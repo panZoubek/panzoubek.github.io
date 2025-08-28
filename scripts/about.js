@@ -1,12 +1,12 @@
 let not_silly_intro = `
-        <h1 class="title">Hi and Hello!</h1>
-        <h1 class="title">my name is Jakim :)</h1>
-        <h1 class="title">and this is my page.</h1>
+        <p class="title">Hi and Hello!</p>
+        <p class="title">my name is Jakim :)</p>
+        <p class="title">and this is my page.</p>
     `
 let silly_intro = `
-        <h1 class="title">Helou!</h1>
-        <h1 class="title">me Jakim :)</h1>
-        <h1 class="title">dis my page.</h1>
+        <p class="title">Helou!</p>
+        <p class="title">me Jakim :)</p>
+        <p class="title">dis my page.</p>
     `
 let silly_amp = `
 <p class="title" id="AMPsign">About me person</p>

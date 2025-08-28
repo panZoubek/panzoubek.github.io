@@ -14,12 +14,46 @@
 </head>
 <body>
     <div class="header" id="HEADER"></div>
-    <div class="hero has-text-centered">
-        <p class="title">Welcome to my page!</p>
-        <p class="subtitle">I am Jakim and I share stuff here!</p>
-        <p><a href="home.html" class="my-a title gogogo">HOME</a></p>
+
+    <div class="hero paragraphed-textos has-text-centered">
+        <div class="hero-head">
+            <p class="title section_name">Vítejte na mé webové stránce</p>
+        </div>
+        <div class="hero-body">
+            <p class="subtitle">Jméno mé Jáchym<sup>(Jakim)</sup> a toto je stránka o mně, sdílím zde fotky a další věci :) <a href="about.html" class="my-a">více</a></p>
+            <!-- 
+            <p class="subtitle"><a href="home.html" class="my-a title gogogo">HOME</a></p>
+            -->
+        </div>
     </div>
+
+    <div class="hero">
+        <div class="hero-head has-text-centered">
+            <p class="title section_name">FOTEČKY</p>
+            <p class="subtitle">pár náhodných foteček z galerie</p>
+        </div>
+        <div class="hero-body">
+            <div class="grid is-col-min-15" id="GALLERYSFEATURED"></div>
+        </div>
+        <div class="hero-footer has-text-centered">
+            <p class="gogogo"><a href="gallery.html" class="my-a">vidět všechny fotečky</a></p>
+        </div>
+    </div>
+
+    <div class="hero" id="NEWS">
+        <div class="hero-head has-text-centered">
+            <p class="title section_name">AKTUALIZACE</p>
+            <div class="fixed-grid has-1-cols">
+                <div class="grid" id="NEWESTNEWS" style="margin-top: 1rem;">
+                </div>
+            </div>  
+        </div>
+    </div>
+
     <div class="footer" id="FOOTER"></div>
+
     <script src="scripts/foothead.js" type="text/javascript"></script>
+    <script src="scripts/gallery.js" type="text/javascript" onload="featGallery()"></script>
+    <script src="scripts/novinky.js" type="text/javascript"></script>
 </body>
 </html>

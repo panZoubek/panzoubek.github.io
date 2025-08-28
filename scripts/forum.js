@@ -22,7 +22,7 @@ function FFillIn(pfp_src, nickname, date, kontentos, reply_text) {
         <div class="cell featured_post">
             <div class="user_info">
                 <img src="${pfp_src}" alt="pfp" class="image is-64x64">
-                <h1 class="title">${nickname}</h1>
+                <p class="title">${nickname}</p>
             </div>
             <div class="message">
                 <p class="subtitle"><i class="date">${date}</i> – ${kontentos}</p>

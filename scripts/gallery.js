@@ -22,30 +22,30 @@ function noRepeatRnd(min, max, list) {
 }
 
 const images = [
-    new PhotoInfo("imagems/whiteheat.jpeg", "whiteheat",    "12.12.2024[home]",         "crazy heater",                         "cat"),
-    new PhotoInfo("imagems/heat.jpeg",      "amelia",       "13.12.2024[home]",         "amelia on da heater",                  "cat"),
-    new PhotoInfo("imagems/windew.jpeg",    "windew",       "11.1.2025[by the window]", "windew",                               "cat"),
-    new PhotoInfo("imagems/school.jpeg",    "school",       "14.1.2025[school]",        "how school be",                        "moment"),
-    new PhotoInfo("imagems/twoofthem.jpeg", "theytwo",      "16.1.2025[home]",          "they two",                             "cat"),
-    new PhotoInfo("imagems/howilook.jpeg",  "howilook",     "23.1.2025[home]",          "how i look when",                      "cat"),
-    new PhotoInfo("imagems/yaawn.jpeg",     "yaawn",        "23.1.2025[home]",          "lil big little yaaaaaaaaaaaaaaAAAaawn","cat"),
-    new PhotoInfo("imagems/sfing.jpeg",     "sfing",        "28.1.2025[home]",          "Sfing(real)",                          "cat"),
-    new PhotoInfo("imagems/crazy.jpeg",     "crazy",        "28.1.2025[home]",          "crazy closeup",                        "cat"),
-    new PhotoInfo("imagems/nous.jpeg",      "nous",         "28.1.2025[home]",          "lil nous",                             "cat"),
-    new PhotoInfo("imagems/house.jpeg",     "house",        "24.2.2025[Portugal]",      "fancy house",                          "travel"),
-    new PhotoInfo("imagems/water.jpeg",     "walter",       "24.2.2025[Portugal]",      "Walter",                               "travel"),
-    new PhotoInfo("imagems/trees.jpeg",     "trinkos",      "25.2.2025[Portugal]",      "trinkos",                              "travel"),
-    new PhotoInfo("imagems/kamelias.jpeg",  "kamelia",      "26.2.2025[Portugal]",      "camelias",                             "travel"),
-    new PhotoInfo("imagems/whitey.jpeg",    "somecar",      "17.3.2025[city]",          "some very cutey chonkey car in ma way","cat"),
-    new PhotoInfo("imagems/waldabed.jpeg",  "waldabed",     "19.3.2025[home]",          "walda in bed",                         "cat"),
-    new PhotoInfo("imagems/ruzukyti.jpeg",  "ruzukyti",     "2.4.2025[the Capital]",    "pinkie springy flowey",                "moment"),
-    new PhotoInfo("imagems/larry.png",      "larry.",       "1.5.2025[somewhere]",      "... Larry.",                           "other"),
-    new PhotoInfo("imagems/portcar.jpg",    "portcar",      "30.6.2025[Porugal]",       "Nice car",                             "cat"),
-    new PhotoInfo("imagems/portflrwr.jpg",  "portflwr",     "30.6.2025[Portugal]",      "Flower closeup",                       "travel"),
-    new PhotoInfo("imagems/portdrain.jpg",  "drain",        "2.7.2025[Portugal]",       "People say water flows here",          "travel"),
+    new PhotoInfo("imagems/whiteheat.jpeg", "whiteheat",    "12.12.2024[home]",         "crazy heater",                         "cats"),
+    new PhotoInfo("imagems/heat.jpeg",      "amelia",       "13.12.2024[home]",         "amelia on da heater",                  "cats"),
+    new PhotoInfo("imagems/windew.jpeg",    "windew",       "11.1.2025[by the window]", "windew",                               "cats"),
+    new PhotoInfo("imagems/school.jpeg",    "school",       "14.1.2025[school]",        "how school be",                        "moments"),
+    new PhotoInfo("imagems/twoofthem.jpeg", "theytwo",      "16.1.2025[home]",          "they two",                             "cats"),
+    new PhotoInfo("imagems/howilook.jpeg",  "howilook",     "23.1.2025[home]",          "how i look when",                      "cats"),
+    new PhotoInfo("imagems/yaawn.jpeg",     "yaawn",        "23.1.2025[home]",          "lil big little yaaaaaaaaaaaaaaAAAaawn","cats"),
+    new PhotoInfo("imagems/sfing.jpeg",     "sfing",        "28.1.2025[home]",          "Sfing(real)",                          "cats"),
+    new PhotoInfo("imagems/crazy.jpeg",     "crazy",        "28.1.2025[home]",          "crazy closeup",                        "cats"),
+    new PhotoInfo("imagems/nous.jpeg",      "nous",         "28.1.2025[home]",          "lil nous",                             "cats"),
+    new PhotoInfo("imagems/house.jpeg",     "house",        "24.2.2025[Portugal]",      "fancy house",                          "travels"),
+    new PhotoInfo("imagems/water.jpeg",     "walter",       "24.2.2025[Portugal]",      "Walter",                               "travels"),
+    new PhotoInfo("imagems/trees.jpeg",     "trinkos",      "25.2.2025[Portugal]",      "trinkos",                              "travels"),
+    new PhotoInfo("imagems/kamelias.jpeg",  "kamelia",      "26.2.2025[Portugal]",      "camelias",                             "travels"),
+    new PhotoInfo("imagems/whitey.jpeg",    "somecar",      "17.3.2025[city]",          "some very cutey chonkey car in ma way","cats"),
+    new PhotoInfo("imagems/waldabed.jpeg",  "waldabed",     "19.3.2025[home]",          "walda in bed",                         "cats"),
+    new PhotoInfo("imagems/ruzukyti.jpeg",  "ruzukyti",     "2.4.2025[the Capital]",    "pinkie springy flowey",                "moments"),
+    new PhotoInfo("imagems/larry.png",      "larry.",       "1.5.2025[somewhere]",      "... Larry.",                           "others"),
+    new PhotoInfo("imagems/portcar.jpg",    "portcar",      "30.6.2025[Porugal]",       "Nice car",                             "cats"),
+    new PhotoInfo("imagems/portflrwr.jpg",  "portflwr",     "30.6.2025[Portugal]",      "Flower closeup",                       "travels"),
+    new PhotoInfo("imagems/portdrain.jpg",  "drain",        "2.7.2025[Portugal]",       "People say water flows here",          "travels"),
 ] /* nejnovejsi na konci */
 
-const groups = ["other","travel","cat","moment"] /* pořadí těchto skupin rozhodne o pořadí na stránce (je to zde od zadu do predu)*/
+const groups = ["others","travels","cats","moments"] /* pořadí těchto skupin rozhodne o pořadí na stránce (je to zde od zadu do predu)*/
 /* nejmensi skupiny prvni, aby se to dalo hezky projit */
 
 function FillIn(source, nickname, date_place, description) {
@@ -102,6 +102,8 @@ function allGallery() {
 
     const tajtl = document.getElementById("MEJNTAJTL")
     tajtl.innerHTML = "GALLERY – ALL"
+    const infoo = document.getElementById("INFOOFOTO")
+    infoo.innerHTML = "all photos – from newest to oldest"
 }
 
 function allScramble() {
@@ -126,6 +128,8 @@ function allScramble() {
 
     const tajtl = document.getElementById("MEJNTAJTL")
     tajtl.innerHTML = "GALLERY – SCRAMBLED"
+    const infoo = document.getElementById("INFOOFOTO")
+    infoo.innerHTML = "randomly mixed photos"
 }
 
 function groupPhotos() {
@@ -150,10 +154,10 @@ function groupPhotos() {
         }
         /* davam tam nazev skupiny dopredu */
         const yaip = `
-            <div class="cell has-text-centered" style="display:flex; justify-content:center;align-items:center; background-color:white">
+            <div class="cell has-text-centered" style="display:flex; justify-content:center;align-items:center; background-color:white; box-shadow: var(--shadow)">
                 <div style="padding:1.5rem;display:block">    
                     <h1 class="title" style="font-size:5rem">
-                        ${gn}s
+                        ${gn}
                         <br>▬►
                     </h1>
                 </div>
@@ -166,7 +170,15 @@ function groupPhotos() {
 
     const tajtl = document.getElementById("MEJNTAJTL")
     tajtl.innerHTML = "GALLERY – GROUPED"
+
+    const infoo = document.getElementById("INFOOFOTO")
+    var group_info = "Group order:"
+    for (let g in groups) {
+        group_info += `&emsp; <u>${groups[groups.length-g-1]}</u>`
+    }
+    infoo.innerHTML = group_info
 }
 
 /* nefunguje to a nevim proc, musim jit na trenink */
-/* co??? myslim ze uz to funguje, asi jsem to zapomnel smazat */ 
+/* co??? myslim ze uz to funguje, asi jsem to zapomnel smazat */
+/* ted nefunguje group photos, nevim proc, nevim jestli to bylo to, co nefungovalo pred tim, :sob: */

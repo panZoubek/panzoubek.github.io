@@ -3,7 +3,8 @@
 const way_to_imgs = "imagems/steam_pfps/";
 
 const profiles = [
-    ["from-monday-to-today.png", "from monday to today", ["current profile"]],
+    ["lost-soup.jpg", "lost soup", ["current profile"]],
+    ["from-monday-to-today.png", "from monday to today", ["24.8.2025-28.8.2025"]],
     ["so-cute.png", "so cute", ["17.8.2025-23.8.2025"]],
     ["clippy-super-blush.png", "super blush", ["11.8.2025-17.8.2025"]],
     ["clippy.jpg", "I like", ["11.8.2025-12.8.2025", '<a target="_blank" href="https://www.geekwire.com/2011/microsoft-brings-clippy-office-training-game/" class="my-a">img source</a>']],

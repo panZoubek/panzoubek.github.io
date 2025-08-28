@@ -2,6 +2,8 @@
 /* pro NEWS a HOME page*/
 /* nejnovejsi na zacatek (kdyby insert byl after begin tak naopak(ale je beforeend)) */
 const novinecky = [
+    ["28.8.2025","předělána úvodní stránka<sup>(index.html)</sup> – nyní jen fotky a info o mně, do zbytku původního webu se uživatel přes kliknutí nedostane – a spoustu dalších úprav"],
+    ["28.8.2025","h1 pryč!!! trošku konzistence ne?"],
     ["26.7.2025","Added gaming page with pfp&nick history; minor changes"],
     ["18.7.2025","Slightly edited"],
     ["8.6.2025","Přidána tlačítka v galerii a více!"],
