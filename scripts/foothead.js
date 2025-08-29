@@ -17,10 +17,12 @@ const hedr = `
     <a href="index.html"><p class="title has-text-centered" style="font-size: 5rem;"><u> Jakims </u></p></a>
     <img src="kyti.png" class="image is-96x96" style="margin-left: 1rem;">
     <div class="theme-nest" onclick="switchTheme()">
-        <div class="bircle"></div>
-        <div class="wircle"></div>
-        <div class="wshadow"></div>
-        <div class="bshadow"></div>
+        <div class="click-nest">
+            <div class="bircle"></div>
+            <div class="wircle"></div>
+            <div class="wshadow"></div>
+            <div class="bshadow"></div>
+        </div>
     </div>
 </div>
 `

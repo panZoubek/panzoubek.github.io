@@ -45,7 +45,7 @@ function SetTheme(tone) {
     setCookie(theme_cookie_name, tone, 29)
 }
 function switchTheme() {
-    let current = GetTheme()
+    let current = readCookie(theme_cookie_name)
     if (current == "light") {
         SetTheme('dark')
     }

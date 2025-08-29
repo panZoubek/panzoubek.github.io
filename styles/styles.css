@@ -396,7 +396,17 @@ a {
     justify-content: flex-end;
 }
 
-.theme-nest:hover {
+.click-nest {
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.click-nest:hover {
     cursor: pointer;
 }
 
@@ -425,8 +435,8 @@ a {
 }
 
 .bshadow {
-    top: 2.5rem;
-    right: 3rem;
+    top: 0.5rem;
+    right: 1rem;
 }
 
 .bshadow, .wshadow {
