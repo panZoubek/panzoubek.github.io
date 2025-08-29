@@ -1,7 +1,6 @@
 /* storing current theme using cookies */
-/* default theme: light */
 
-
+const default_theme = 'dark'
 const theme_cookie_name = "theme-color"
 
 const Tones = {
@@ -31,7 +30,7 @@ const Tones = {
 function GetTheme() {
     let t = readCookie(theme_cookie_name)
     if (t == "theme not set") {
-        SetTheme('light')
+        SetTheme(default_theme)
     }
     else {
         SetTheme(t)
