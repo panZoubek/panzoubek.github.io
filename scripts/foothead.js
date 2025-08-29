@@ -12,13 +12,16 @@ document.getElementById('FOOTER').insertAdjacentHTML("beforeend",futr)
 
 
 const hedr = `
-<div class="hero-head has-text-centered" style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">
+<div class="hero-head has-text-centered headr-flex">
+    <div class="filler"></div>
     <a href="index.html"><p class="title has-text-centered" style="font-size: 5rem;"><u> Jakims </u></p></a>
     <img src="kyti.png" class="image is-96x96" style="margin-left: 1rem;">
+    <div class="theme-nest" onclick="switchTheme()">
+        <div class="bircle"></div>
+        <div class="wircle"></div>
+        <div class="wshadow"></div>
+        <div class="bshadow"></div>
+    </div>
 </div>
-<div style="display: flex; align-items: center; justify-content: right; flex-wrap: wrap; background-color:var(--mbg); padding:1rem;">
-    <a class="title" onclick="SetTheme('light')"><div style="background-color: white; color:rgba(128, 128, 128, 1)">LIGHT</div></a>
-    <p class="subtitle">Themes</p>
-    <a class="title" onclick="SetTheme('dark')"><div style="background-color: black; color:rgba(138, 138, 138, 1)">DARK</div></a>
-</div>`
+`
 document.getElementById('HEADER').insertAdjacentHTML("afterbegin",hedr)
