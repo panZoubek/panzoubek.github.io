@@ -153,16 +153,17 @@ a {
 }
 
 .butt {
-    border: 0.25rem;
+    border: 0.28rem;
     border-style: solid;
     border-radius: 0.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
     padding: 0.2rem;
+    background-color: rgb(255, 255, 255);
 }
 
 .butt p {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 /* LINKS */

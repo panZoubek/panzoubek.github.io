@@ -43,6 +43,9 @@ const images = [
     new PhotoInfo("imagems/portcar.jpg",    "portcar",      "30.6.2025[Porugal]",       "Nice car",                             "cats"),
     new PhotoInfo("imagems/portflrwr.jpg",  "portflwr",     "30.6.2025[Portugal]",      "Flower closeup",                       "travels"),
     new PhotoInfo("imagems/portdrain.jpg",  "drain",        "2.7.2025[Portugal]",       "People say water flows here",          "travels"),
+    new PhotoInfo("imagems/mogingvjw.jpg",  "moging",       "20.8.2025[Austria]",       "Jedno z mnoha krásných rán",           "travels"),
+    new PhotoInfo("imagems/fieldmiging.jpg","morgin",       "22.8.2025[Austria]",       "Poslední ráno před koncem",            "travels"),
+    new PhotoInfo("imagems/saltyburg.jpg",  "saltyburg",    "22.8.2025[Austria]",       "Finální destinace našeho šestidenního výletu na kole", "travels" ),
 ] /* nejnovejsi na konci */
 
 const groups = ["others","travels","cats","moments"] /* pořadí těchto skupin rozhodne o pořadí na stránce (je to zde od zadu do predu)*/
@@ -51,7 +54,7 @@ const groups = ["others","travels","cats","moments"] /* pořadí těchto skupin 
 function FillIn(source, nickname, date_place, description) {
     let postbox = `
         <div class="cell gallery_pick">
-            <img src="${source}" alt="${nickname}" title="${nickname}" class="image">
+            <img src="${source}" alt="${nickname}" title="${nickname}" onclick="window.open(this.src)" class="image">
             <p><i class="date">${date_place}</i> – ${description}</p>
         </div>
                     `
@@ -59,11 +62,13 @@ function FillIn(source, nickname, date_place, description) {
 }
 
 function featGallery() {
+    /* random photos */
     const featgal = document.getElementById("GALLERYSFEATURED")
+    featgal.innerHTML = ""
     const usedposs = []
     const delka = images.length - 1
     
-    for (let i = 0; i != 5; i++) {
+    for (let i = 0; i != 6; i++) {
 
         let prvek = noRepeatRnd(0,delka,usedposs)
         usedposs.push(prvek)
@@ -72,6 +77,23 @@ function featGallery() {
         const contentos = FillIn(p.src, p.nick, p.dateplace, p.desc)
         featgal.insertAdjacentHTML("afterbegin",contentos)
     }
+
+    const popis = document.getElementById("WHATFEATPOTO")
+    popis.innerHTML = "náhodné"
+}
+
+function LatestPhotos(){
+    const featgal = document.getElementById("GALLERYSFEATURED")
+    featgal.innerHTML = ""
+
+    for (let x = images.length-1; x != images.length-6; x--) {
+        let p = images[x]
+        let fotka = FillIn(p.src, p.nick, p.dateplace, p.desc)
+        featgal.insertAdjacentHTML("beforeend",fotka)
+    }
+
+    const popis = document.getElementById("WHATFEATPOTO")
+    popis.innerHTML = "nejnovější"
 }
 
 function allGallery() {
@@ -154,12 +176,13 @@ function groupPhotos() {
         }
         /* davam tam nazev skupiny dopredu */
         const yaip = `
-            <div class="cell has-text-centered" style="display:flex; justify-content:center;align-items:center; background-color:white; box-shadow: var(--shadow)">
+            <div id="${gn}" class="cell has-text-centered" style="display:flex; justify-content:center;align-items:center; background-color:white; box-shadow: var(--shadow)">
                 <div style="padding:1.5rem;display:block">    
-                    <h1 class="title" style="font-size:5rem">
+                    <p class="title" style="font-size:5rem">
                         ${gn}
                         <br>▬►
-                    </h1>
+                    </p>
+                    <p style="margin-top:2.5rem"><a href="#HEADER" class="subtitle my-a">zpět nahoru</a></p>
                 </div>
             </div>
         `
@@ -174,7 +197,8 @@ function groupPhotos() {
     const infoo = document.getElementById("INFOOFOTO")
     var group_info = "Group order:"
     for (let g in groups) {
-        group_info += `&emsp; <u>${groups[groups.length-g-1]}</u>`
+        let skupina = groups[groups.length-g-1]
+        group_info += `&emsp; <a class="my-a" href="#${skupina}">${skupina}</a>`
     }
     infoo.innerHTML = group_info
 }
@@ -182,3 +206,4 @@ function groupPhotos() {
 /* nefunguje to a nevim proc, musim jit na trenink */
 /* co??? myslim ze uz to funguje, asi jsem to zapomnel smazat */
 /* ted nefunguje group photos, nevim proc, nevim jestli to bylo to, co nefungovalo pred tim, :sob: */
+/* jsem trouba - u obrazku je nazev skupiny, do ktere patri, a ja zmenil nazvy :sob: */

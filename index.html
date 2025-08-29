@@ -30,7 +30,16 @@
     <div class="hero">
         <div class="hero-head has-text-centered">
             <p class="title section_name">FOTEČKY</p>
-            <p class="subtitle">pár náhodných foteček z galerie</p>
+            <div class="grid upperbutt">
+                <div class="cell butt" onclick="LatestPhotos()">
+                    <a><p class="title">NEJNOVĚJŠÍ</p></a>
+                </div>
+                <div class="cell butt" onclick="featGallery()">
+                    <a><p class="title">NÁHODNÉ</p></a>
+                </div>
+            </div>
+            
+            <p class="subtitle" id="WHATFEATPOTO"></p>
         </div>
         <div class="hero-body">
             <div class="grid is-col-min-15" id="GALLERYSFEATURED"></div>
@@ -53,7 +62,7 @@
     <div class="footer" id="FOOTER"></div>
 
     <script src="scripts/foothead.js" type="text/javascript"></script>
-    <script src="scripts/gallery.js" type="text/javascript" onload="featGallery()"></script>
+    <script src="scripts/gallery.js" type="text/javascript" onload="LatestPhotos()"></script>
     <script src="scripts/novinky.js" type="text/javascript"></script>
 </body>
 </html>
