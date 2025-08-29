@@ -13,17 +13,11 @@
             margin-bottom: 3rem;
         }
         .silly-button {
-            background-color: rgb(203, 219, 255);
             padding: 0.3rem;
             border-radius: 0.5rem;
             border: solid;
-            border-color: rgb(140, 146, 255);
-        }
-        .silly-button .subtitle {
-            color: rgb(82, 82, 82);
         }
         .silly-button:active {
-            background-color: rgb(255, 129, 129);
             transform: 0.1s;
         }
     </style>
@@ -119,11 +113,6 @@
     <div class="footer" id="FOOTER"></div>
     <script src="scripts/foothead.js" type="text/javascript"></script>
     <script src="scripts/about.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        const d = document.getElementById("123456789")
-        for (let i = 1; i < 10; i++) {
-            d.insertAdjacentHTML("beforeend",`<a href="https://cl1p.net/jakims${i}" class="my-a" target="_blank">${i}</a>&emsp;`)
-        }
-    </script>
+    <script src="scripts/theme.js" type="text/javascript" onload="GetTheme()"></script>
 </body>
 </html>

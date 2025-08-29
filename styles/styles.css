@@ -2,6 +2,11 @@
     --bg:rgb(240, 240, 240); /* for content divs */
     --mbg: rgb(207, 207, 207);  /* html bg */
     --shadow: 0rem 0rem 1rem 0.3rem rgb(195, 195, 195);
+    --link: rgb(50, 43, 255);
+    --p_color: rgb(29, 29, 29);
+    --a_color: rgb(61, 61, 61);
+    --contrast_color: white;
+    --title_color:#2e333d;
 }
 
 @media only screen and (min-width: 1400px) {
@@ -38,16 +43,18 @@ body {
 
 p {
     font-size: 1.3rem;
-    color: rgb(29, 29, 29);
+    color: var(--p_color);
     font-weight: 500;
 }
 
 .title {
     font-size: 2.5rem;
+    color: var(--title_color);
 }
 
 .subtitle {
     font-size: 1.6rem;
+    color: var(--p_color);
 }
 
 .paragraphed-textos .title {
@@ -94,14 +101,14 @@ p {
 a {
     text-decoration: none;
     font-style: none;
-    color: rgb(61, 61, 61);
+    color: var(--a_color);
 }
 
 .my-a {
     text-decoration: underline;
     font-style: italic;
     font-weight: 600;
-    color: rgb(50, 43, 255);
+    color: var(--link);
 }
 
 .gogogo {
@@ -125,7 +132,7 @@ a {
 }
 
 #THENEWS .cell {
-    background-color: rgb(246, 246, 246);
+    background-color: var(--contrast_color);
     margin-bottom: 0.6rem;
     padding: 0.6rem;
     box-shadow: var(--shadow);
@@ -138,7 +145,7 @@ a {
 
 /* GALLERY */
 .gallery_pick {
-    background-color: rgb(255, 255, 255);
+    background-color: var(--contrast_color);
     box-shadow: var(--shadow);
     padding:0.5rem;
     height: min-content;
@@ -159,7 +166,7 @@ a {
     margin-left: 1rem;
     margin-right: 1rem;
     padding: 0.2rem;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--contrast_color);
 }
 
 .butt p {
@@ -191,7 +198,7 @@ a {
     margin: 0.5rem;
     border-radius: 0.3rem;
     box-shadow: var(--shadow);
-    background-color: rgb(253, 253, 253);
+    background-color: var(--contrast_color);
 }
 
 .hyper_link .jump p {
@@ -319,7 +326,7 @@ a {
 }
 
 .one_profile {
-    background-color: rgb(255, 255, 255);
+    background-color: var(--contrast_color);
     padding: 0.5rem;
     box-shadow: var(--shadow);
 }

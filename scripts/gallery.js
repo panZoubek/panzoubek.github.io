@@ -176,7 +176,7 @@ function groupPhotos() {
         }
         /* davam tam nazev skupiny dopredu */
         const yaip = `
-            <div id="${gn}" class="cell has-text-centered" style="display:flex; justify-content:center;align-items:center; background-color:white; box-shadow: var(--shadow)">
+            <div id="${gn}" class="cell has-text-centered" style="display:flex; justify-content:center;align-items:center; background-color:var(--contrast_color); box-shadow: var(--shadow)">
                 <div style="padding:1.5rem;display:block">    
                     <p class="title" style="font-size:5rem">
                         ${gn}
