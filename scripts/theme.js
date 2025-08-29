@@ -41,16 +41,15 @@ function SetTheme(tone) {
     for (let v in theme) {
         setVar(`--${v}`, theme[v])
     }
-
     setCookie(theme_cookie_name, tone, 29)
 }
 function switchTheme() {
     let current = readCookie(theme_cookie_name)
-    if (current == "light") {
-        SetTheme('dark')
-    }
-    else {
+    if (current == "dark") {
         SetTheme('light')
+    }
+    else{
+        SetTheme(default_theme)
     }
 }
 
