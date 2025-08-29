@@ -86,7 +86,7 @@ function LatestPhotos(){
     const featgal = document.getElementById("GALLERYSFEATURED")
     featgal.innerHTML = ""
 
-    for (let x = images.length-1; x != images.length-6; x--) {
+    for (let x = images.length-1; x != images.length-7; x--) {
         let p = images[x]
         let fotka = FillIn(p.src, p.nick, p.dateplace, p.desc)
         featgal.insertAdjacentHTML("beforeend",fotka)

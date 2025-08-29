@@ -1,12 +1,12 @@
 :root{
-    --bg:rgb(240, 240, 240); /* for content divs */
-    --mbg: rgb(207, 207, 207);  /* html bg */
-    --shadow: 0rem 0rem 1rem 0.3rem rgb(195, 195, 195);
-    --link: rgb(50, 43, 255);
-    --p_color: rgb(29, 29, 29);
-    --a_color: rgb(61, 61, 61);
-    --contrast_color: white;
-    --title_color:#2e333d;
+    --bg:#0f0f0f; /* for content divs */
+    --mbg: #303030;  /* html main bg */
+    --shadow: 0rem 0rem 1rem 0.3rem #0f0f0f;/* divs shadow for visibility */
+    --link: #cdd400;   /* color for clickable links */
+    --p_color: #cec9beff; 
+    --a_color: #c2c2c2;
+    --contrast_color: black;
+    --title_color:#eae4d9ff;
 }
 
 @media only screen and (min-width: 1400px) {
