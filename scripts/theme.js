@@ -62,7 +62,6 @@ function readCookie(name) {
         let c = co.split("=")
         if (c[0] == name) {
             let current_theme = c[1]
-            console.log(current_theme)
             return(current_theme) 
         }
         else {
