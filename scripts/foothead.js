@@ -13,11 +13,10 @@ document.getElementById('FOOTER').insertAdjacentHTML("beforeend",futr)
 
 const hedr = `
 <div class="hero-head has-text-centered headr-flex">
-    <div class="filler"></div>
-    <a href="index.html"><p class="title has-text-centered" style="font-size: 5rem;"><u> Jakims </u></p></a>
-    <img src="kyti.png" class="image is-96x96" style="margin-left: 1rem;">
-    <div class="theme-nest" onclick="switchTheme()">
-        <div class="click-nest">
+    <div class="theme-nest" style="justify-content: flex-start"><img src="kyti.png" class="image is-96x96"></div>
+    <a href="index.html"><p class="title has-text-centered jakims"><u> Jakims </u></p></a>
+    <div class="theme-nest">
+        <div class="click-nest" onclick="switchTheme()">
             <div class="bircle"></div>
             <div class="wircle"></div>
             <div class="wshadow"></div>

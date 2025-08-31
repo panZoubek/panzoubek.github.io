@@ -16,7 +16,7 @@ const Tones = {
     }, 
     dark:{
             "bg":"#0f0f0f", /* for content divs */
-            "mbg": "#2a2a2aff",  /* html main bg */
+            "mbg": "#303030",  /* html main bg */
             "shadow": "0rem 0rem 1rem 0.3rem #0f0f0f",/* divs shadow for visibility */
             "link": "#cdd400",   /* color for clickable links */
             "p_color": "rgb(225, 219, 207)", 

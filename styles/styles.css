@@ -23,6 +23,9 @@
     :root {
         font-size: 12px;
     }
+    .jakims {
+        font-size: 4rem;
+    }
 }
 
 /*        
@@ -372,34 +375,34 @@ a {
 }
 
 /* HEADER */
+.jakims {
+    font-size: 5rem;
+    margin-right: 1rem;
+    margin-left:1rem
+}
+
 .headr-flex {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     position: relative;
-}
-
-.filler {
-    flex:1;
-    min-width: 0rem;
 }
 
 .theme-nest {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
     position: relative;
     flex:1;
+    height: 96px;
+    min-width: 96px;
     display: flex;
+    align-items: center;
     justify-content: flex-end;
 }
 
 .click-nest {
     position: relative;
-    height: fit-content;
-    width: fit-content;
+    height: 96px;
+    width: 96px;
     padding: 1rem;
     display: flex;
     align-items: center;
@@ -410,7 +413,7 @@ a {
     cursor: pointer;
 }
 
-.theme-nest .bircle, .theme-nest .wircle, .bshadow, .wshadow {
+.theme-nest .bircle, .theme-nest .wircle, .bircle::before, .wircle::before {
     height: 2rem;
     width: 2rem;
     border-radius: 2rem;
@@ -430,17 +433,11 @@ a {
     top:-0.5rem;
 }
 
-.wshadow {
-    top: 1.5rem;
-}
-
-.bshadow {
-    top: 0.5rem;
-    right: 1rem;
-}
-
-.bshadow, .wshadow {
-    z-index: 0;
+.bircle::before, .wircle::before {
+    content: "";
     position: absolute;
-    box-shadow: 0 0 0.5rem 0.1rem rgba(160, 160, 160, 0.646);
+    top:0;
+    left: 0;
+    box-shadow: 0 0 0.5rem 0.1rem rgba(118, 118, 118, 0.646);
+    z-index: -1;
 }
