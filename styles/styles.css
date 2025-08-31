@@ -21,7 +21,7 @@
 
 @media only screen and (max-width: 800px) {
     :root {
-        font-size: 12px;
+        font-size: 10px;
     }
     .jakims {
         font-size: 4rem;
@@ -413,7 +413,7 @@ a {
     cursor: pointer;
 }
 
-.theme-nest .bircle, .theme-nest .wircle, .bircle::before, .wircle::before {
+.bircle, .wircle, .bircle::before, .wircle::before {
     height: 2rem;
     width: 2rem;
     border-radius: 2rem;
@@ -437,7 +437,7 @@ a {
     content: "";
     position: absolute;
     top:0;
-    left: 0;
+    left:0;
     box-shadow: 0 0 0.5rem 0.1rem rgba(118, 118, 118, 0.646);
     z-index: -1;
 }
