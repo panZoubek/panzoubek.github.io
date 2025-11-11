@@ -1,6 +1,6 @@
 :root{
     --bg:#0f0f0f; /* for content divs */
-    --mbg: #303030;  /* html main bg */
+    --mbg: rgb(199,199,199);  /* html main bg */
     --shadow: 0rem 0rem 1rem 0.3rem #0f0f0f;/* divs shadow for visibility */
     --link: #cdd400;   /* color for clickable links */
     --p_color: rgb(225, 219, 207); 
@@ -38,6 +38,8 @@
     USER POSTS
     GAMING
     HEADER
+    PRISPEVKY
+    VIDEO
 */
 
 /* GENERAL */
@@ -129,52 +131,65 @@ a {
     display: inline;
 }
 
-/* NEWS */
-.one_new {
-    display: inline;
-    padding-left: 1rem;
-}
-
-#THENEWS .cell {
-    background-color: var(--contrast_color);
-    margin-bottom: 0.6rem;
-    padding: 0.6rem;
-    box-shadow: var(--shadow);
-}
-
-#THENEWS .cell .subtitle {
-    font-size: 1.5rem;
-}
-
 
 /* GALLERY */
+#GALLERYSFEATURED {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .gallery_pick {
     background-color: var(--contrast_color);
     box-shadow: var(--shadow);
     padding:0.5rem;
     height: min-content;
+    position: relative;
 }
 
-.upperbutt {
+.gallery_pick .cislicko {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    padding: 0.2rem;
+    height: 2rem;
+    width: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem;
-    flex-wrap: wrap;
 }
 
-.butt {
-    border: 0.28rem;
-    border-style: solid;
-    border-radius: 0.5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    padding: 0.2rem;
-    background-color: var(--contrast_color);
+.gallery_pick .cislicko p {
+    color: grey;
+    font-weight: bold;
 }
 
-.butt p {
-    font-size: 1.5rem;
+.gallery_pick .cislicko sub {
+    color: grey;
+    font-weight: lighter;
+    font-size: 70%;
+    padding-left: 0.2rem;
+}
+
+.gallery_pick .popisek {
+    padding-right: 2.3rem;
+}
+
+.gallery_pick .left, .right {
+    z-index: 1;
+    position: absolute;
+    top:1rem;
+    bottom: 15%;
+}
+
+.right {
+    left: 52%;
+    right: 1rem;
+}
+
+.left {
+    left: 1rem;
+    right: 52%;
 }
 
 /* LINKS */
@@ -212,116 +227,6 @@ a {
     margin: 0;
 }
 
-/* FORUM */
-.forum .cell {
-    margin-bottom: 1rem;
-}
-.featured_post {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(248, 248, 248);
-    border-radius: 2rem;
-    position: relative;
-    box-shadow: var(--shadow);
-}
-
-.featured_post .user_info {
-    display: inline-flex;
-    align-items: center;
-    background-color: rgb(169, 223, 60);
-    padding-right: 1rem;
-    padding-left: 0.5rem;
-    border-radius: 2rem;
-}
-
-.featured_post .user_info .image {
-    border-radius: 2rem;
-    margin: 0.3rem
-}
-
-.featured_post .user_info .title {
-    margin-left: 0.5rem;
-    font-size: 2rem;
-}   
-
-.featured_post .message {
-    display: inline-flex;
-    align-items: center;
-    padding: 0.8rem;
-}
-
-.featured_post .reply_button{
-    position: absolute;
-    height: 32px;
-    width: 70px;
-    background-color: rgb(205, 205, 205);
-    border-bottom-right-radius: 2rem;
-    border-top-left-radius: 0.8rem;
-    bottom: 0;
-    right: 0;
-    cursor: pointer;
-}
-
-.featured_post .reply_button:before {
-    content: attr(hover-data);
-    visibility: hidden;
-    opacity: 0;
-    width: 100px;
-    position: absolute;
-    transition: visibility 2s, opacity 2s;
-    transition-delay: 2s;
-    top: -1.5rem;
-    right: 5rem;
-    width: 10rem;
-    background-color: yellowgreen;
-    padding: 0.5rem;
-    border-radius: 0.3em;
-    font-weight: bold;
-    z-index: 1;
-}
-
-.featured_post .reply_button:active:before {
-    visibility: visible;
-    opacity: 1;
-    transition: visibility 0s;
-}
-
-/* USER POSTS */
-.post_box {
-    background-color: rgb(254, 255, 171);
-    border-radius: 2rem;
-    padding: 0;
-    margin: 2rem;
-    height: min-content;
-}
-
-.post_box .poster_info {
-    border-bottom: solid;
-    border-color: var(--bg);
-    border-bottom-width: 0.5rem ;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(255, 255, 232);
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
-    padding: 0.5rem;
-
-}
-
-.post_box .subtitle {
-    padding: 1rem;
-}
-
-.post_box .poster_info .title {
-    margin-left: 1rem;
-    font-size: 2rem;
-}
-
-.post_box .poster_info .image {
-    border-radius: 2rem;
-}
 
 /* GAMING */
 .profiles_grid {
@@ -440,4 +345,65 @@ a {
     left:0;
     box-shadow: 0 0 0.5rem 0.1rem rgba(118, 118, 118, 0.646);
     z-index: -1;
+}
+
+/* PRISPEVKY */
+.post {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: double;
+    border-width: 0.5rem;
+    border-color: var(--mbg);
+    position: relative;
+    z-index: 1;
+}
+
+.post p {
+    padding: 2.5rem;
+    z-index: 1;
+}
+
+.post .imbg1, .imbg2, .imbg3 {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.imbg1 {
+    right: 69%;
+    left: 0;
+}
+.imbg2 {
+    right: 0;
+    left: 69%;
+}
+
+.imbg3 {
+    right: 30%;
+    left: 30%;
+}  
+.post img {
+    opacity: 1;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* VIDEO */
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--mbg);
+    border-style: solid;
+    border-color: var(--mbg);
+    border-width: 0.4rem;
+}
+
+.video-grid {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }

@@ -1,6 +1,6 @@
 // adding profiles to the profile history
 
-const way_to_imgs = "imagems/steam_pfps/";
+const way_to_imgs = "steam_pfps/";
 
 const profiles = [
     ["twoloves.jpg","two loves",["current profile"]],
