@@ -364,11 +364,15 @@ a {
     z-index: 1;
 }
 
-.post .imbg1, .imbg2, .imbg3 {
+.post .imbg1, .imbg2, .imbg3, .imbg{
     z-index: 0;
     position: absolute;
     top: 0;
     bottom: 0;
+}
+.imbg {
+    left: 0;
+    right: 0;
 }
 .imbg1 {
     right: 69%;
@@ -378,7 +382,6 @@ a {
     right: 0;
     left: 69%;
 }
-
 .imbg3 {
     right: 30%;
     left: 30%;
