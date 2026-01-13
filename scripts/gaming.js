@@ -3,7 +3,8 @@
 const way_to_imgs = "steam_pfps/";
 
 const profiles = [
-    ["nightsky.jpg", "The night sky", ["current profile"]],
+    ["left-plus-right.jpg", "Left + Right", ["current profile"]],
+    ["nightsky.jpg", "The night sky", ["25.12.2025-13.1.2026"]],
     ["allthatis.jpg", "all that is", ["14.12.2025-24.12.2025"]],
     ["fivesecr.jpg","I have 5 secrets", ["18.11.2025-13.12.2025"]],
     ["twoloves.jpg","two loves",["22.9.2025-17.11.2025"]],
