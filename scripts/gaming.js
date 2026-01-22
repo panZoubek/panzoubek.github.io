@@ -1,4 +1,5 @@
 // adding profiles to the profile history
+// funguj
 
 const way_to_imgs = "steam_pfps/";
 
