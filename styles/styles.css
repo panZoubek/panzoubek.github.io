@@ -44,6 +44,7 @@
 /* GENERAL */
 body {
     font-family: Arial;
+    /*background: linear-gradient(56deg,rgba(46, 106, 155, 0.25) 0%, rgba(145, 40, 155, 0.25) 50%,rgba(41, 91, 150, 0.25)100%);*/
 }
 
 p {
@@ -76,20 +77,21 @@ p {
 .hero {
     padding-bottom: 3.5rem;
     background-color: var(--bg);
-    box-shadow: inset 0rem -3.5rem 2rem -2rem var(--mbg);
+    /* box-shadow: inset 0rem -3.5rem 2rem -2rem var(--mbg), */
     padding-top: 2rem;
+    margin-top: 3rem;
 }
 
 .header {
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
     background-color: var(--bg);
 }
 
 .footer {
-    background-color: var(--mbg);
-    margin-top: 2rem;
+    background-color: transparent;
+    margin-top: 11rem;
     padding-top: 2rem;
-    padding-bottom: 6rem;
+    padding-bottom: 8rem;
 }
 
 .footer .column {
@@ -354,7 +356,7 @@ a {
     align-items: center;
     justify-content: center;
     border-style: double;
-    border-width: 0.7rem;
+    border-width: 0.75rem;
     border-color: var(--mbg);
     position: relative;
     z-index: 1;
@@ -364,6 +366,10 @@ a {
     /*class for invisible post to pad other posts*/
     border: none;
 } 
+
+.post .title {
+    text-shadow: 0 0 0.66rem rgb(0, 0, 0), 0 0 1.32rem rgb(20, 20, 20), 0 0 2rem rgb(39, 39, 39);
+}
 
 .post p {
     padding: 2.5rem;
@@ -393,7 +399,7 @@ a {
     left: 30%;
 }  
 .post img {
-    opacity: 1;
+    opacity: 0.9;
     object-fit: cover;
     width: 100%;
     height: 100%;

@@ -6,7 +6,7 @@ const theme_cookie_name = "theme-color"
 const Tones = {
     light:{
             "bg":"rgb(240, 240, 240)", /* for content divs */
-            "mbg": "rgba(199, 199, 199, 1)",  /* html main bg */
+            "mbg": "rgb(190, 190, 190)",  /* html main bg */
             "shadow": "0rem 0rem 1rem 0.3rem rgb(195, 195, 195)",/* divs shadow for visibility */
             "link": "rgb(50, 43, 255)",   /* color for clickable links */
             "p_color": "rgb(29, 29, 29)", 
