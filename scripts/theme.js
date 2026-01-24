@@ -15,14 +15,14 @@ const Tones = {
             "title_color": "#2e333d",
     }, 
     dark:{
-            "bg":"#0f0f0f", /* for content divs */
+            "bg":"#131313", /* for content divs */
             "mbg": "#303030",  /* html main bg */
             "shadow": "0rem 0rem 1rem 0.3rem #0f0f0f",/* divs shadow for visibility */
             "link": "#cdd400",   /* color for clickable links */
-            "p_color": "rgb(225, 219, 207)", 
+            "p_color": "rgb(255, 255, 255)", 
             "a_color": "#c2c2c2",
             "contrast_color": "black",
-            "title_color":"rgb(245, 240, 232)",
+            "title_color":"rgb(255, 255, 255)",
     }
 }
 

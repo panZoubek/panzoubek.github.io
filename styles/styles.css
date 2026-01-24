@@ -1,12 +1,12 @@
 :root{
-    --bg:#0f0f0f; /* for content divs */
-    --mbg: #303030;  /* html main bg */
+    --mbg:#131313; /* for content divs */
+    --bg: #303030;  /* html main bg */
     --shadow: 0rem 0rem 1rem 0.3rem #0f0f0f;/* divs shadow for visibility */
     --link: #cdd400;   /* color for clickable links */
-    --p_color: rgb(225, 219, 207); 
+    --p_color: rgb(255, 255, 255); 
     --a_color: #c2c2c2;
     --contrast_color: black;
-    --title_color:rgb(245, 240, 232);
+    --title_color:rgb(255, 255, 255);
 }
 
 @media only screen and (min-width: 1400px) {
@@ -31,7 +31,6 @@
 /*        
         > OBSAH <        
     GENERAL
-    NEWS
     GALLERY
     LINKS
     FORUM
@@ -61,6 +60,8 @@ p {
 .subtitle {
     font-size: 1.6rem;
     color: var(--p_color);
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .paragraphed-textos .title {
@@ -80,7 +81,7 @@ p {
 }
 
 .header {
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
     background-color: var(--bg);
 }
 
@@ -131,7 +132,6 @@ a {
     display: inline;
 }
 
-
 /* GALLERY */
 #GALLERYSFEATURED {
     display: flex;
@@ -145,6 +145,10 @@ a {
     padding:0.5rem;
     height: min-content;
     position: relative;
+}
+
+.gallery_pick p {
+    font-size: 1.1rem;
 }
 
 .gallery_pick .cislicko {
@@ -171,9 +175,6 @@ a {
     padding-left: 0.2rem;
 }
 
-.gallery_pick .popisek {
-    padding-right: 2.3rem;
-}
 
 .gallery_pick .left, .right {
     z-index: 1;
@@ -353,11 +354,16 @@ a {
     align-items: center;
     justify-content: center;
     border-style: double;
-    border-width: 0.5rem;
+    border-width: 0.7rem;
     border-color: var(--mbg);
     position: relative;
     z-index: 1;
 }
+
+.invs {
+    /*class for invisible post to pad other posts*/
+    border: none;
+} 
 
 .post p {
     padding: 2.5rem;
@@ -401,7 +407,7 @@ a {
     background-color: var(--mbg);
     border-style: solid;
     border-color: var(--mbg);
-    border-width: 0.4rem;
+    border-width: 0.5rem;
 }
 
 .video-grid {

@@ -1,10 +1,10 @@
 // adding profiles to the profile history
-// funguj
 
 const way_to_imgs = "steam_pfps/";
 
 const profiles = [
-    ["left-plus-right.jpg", "Left + Right", ["current profile"]],
+    ["Tears-are-falling.jpg", "Tears are falling", ["current profile"]],
+    ["left-plus-right.jpg", "Left + Right", ["14.1.2026-24.1.2026"]],
     ["nightsky.jpg", "The night sky", ["25.12.2025-13.1.2026"]],
     ["allthatis.jpg", "all that is", ["14.12.2025-24.12.2025"]],
     ["fivesecr.jpg","I have 5 secrets", ["18.11.2025-13.12.2025"]],
