@@ -79,12 +79,7 @@ p {
     background-color: var(--bg);
     /* box-shadow: inset 0rem -3.5rem 2rem -2rem var(--mbg), */
     padding-top: 2rem;
-    margin-top: 3rem;
-}
-
-.header {
-    margin-bottom: 6rem;
-    background-color: var(--bg);
+    margin-top: 4rem;
 }
 
 .footer {
@@ -283,10 +278,17 @@ a {
 }
 
 /* HEADER */
+.header {
+    margin-bottom: 0rem;
+    background-color: var(--bg);
+    border: solid var(--contrast_color) 0.4rem;
+    box-shadow: inset 0 0 1rem 0.3rem var(--mbg), 0 0 1rem 0.3rem var(--bg);
+}
+
 .jakims {
     font-size: 5rem;
     margin-right: 1rem;
-    margin-left:1rem
+    margin-left:1rem;
 }
 
 .headr-flex {
@@ -360,12 +362,8 @@ a {
     border-color: var(--mbg);
     position: relative;
     z-index: 1;
+    max-width: 40rem;
 }
-
-.invs {
-    /*class for invisible post to pad other posts*/
-    border: none;
-} 
 
 .post .title {
     text-shadow: 0 0 0.66rem rgb(0, 0, 0), 0 0 1.32rem rgb(20, 20, 20), 0 0 2rem rgb(39, 39, 39);

@@ -5,8 +5,8 @@ const theme_cookie_name = "theme-color"
 
 const Tones = {
     light:{
-            "bg":"rgb(240, 240, 240)", /* for content divs */
-            "mbg": "rgb(190, 190, 190)",  /* html main bg */
+            "bg":"rgb(235, 235, 235)", /* for content divs */
+            "mbg": "rgb(155, 155, 155)",  /* html main bg */
             "shadow": "0rem 0rem 1rem 0.3rem rgb(195, 195, 195)",/* divs shadow for visibility */
             "link": "rgb(50, 43, 255)",   /* color for clickable links */
             "p_color": "rgb(29, 29, 29)", 
@@ -17,7 +17,7 @@ const Tones = {
     dark:{
             "bg":"#131313", /* for content divs */
             "mbg": "#303030",  /* html main bg */
-            "shadow": "0rem 0rem 1rem 0.3rem #0f0f0f",/* divs shadow for visibility */
+            "shadow": "0rem 0rem 1rem 0.3rem #1f1f1f",/* divs shadow for visibility */
             "link": "#cdd400",   /* color for clickable links */
             "p_color": "rgb(255, 255, 255)", 
             "a_color": "#c2c2c2",
