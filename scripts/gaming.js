@@ -3,7 +3,8 @@
 const way_to_imgs = "steam_pfps/";
 
 const profiles = [
-    ["the-world-is-angry.jpg", "the World is angry", ["current profile"]],
+    ["skill.jpg", "skill", ["current profile"]],
+    ["the-world-is-angry.jpg", "the World is angry", ["27.2.2026-6.4.2026"]],
     ["last-letter.jpg", "last letter", ["21.2.2026-26.2.2026"]],
     ["Echos.jpg", "Echos", ["14.2.2026-20.2.2026"]],
     ["happy-last-1.jpg", "Happy Last -1", ["13.2.2026"]],
